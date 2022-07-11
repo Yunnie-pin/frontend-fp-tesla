@@ -7,6 +7,34 @@ const isOn = ref(true)
 function togglePopUp() {
   isOn.value = !isOn.value
 }
+    
+// Swiper script
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    autoplay: {
+        delay: 5000,
+        disableOnInteration: false,
+    },
+
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+    // And if we need scrollbar
+    // scrollbar: {
+    //     el: '.swiper-scrollbar',
+    // },
+});
 
 </script>
 
