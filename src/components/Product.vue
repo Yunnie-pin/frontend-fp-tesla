@@ -23,13 +23,13 @@ function togglePopUp() {
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
-                    <div class="swiper-slide"><img src="dist/image/cars/slider/crop-M3-Homepage-Desktop-LHD.jpg"
+                    <div class="swiper-slide"><img src="../assets/image/cars/slider/crop-M3-Homepage-Desktop-LHD.jpg"
                             alt="Model 3" class="w-full"></div>
-                    <div class="swiper-slide"><img src="dist/image/cars/slider/crop-Desktop-ModelY.jpg" alt="Model Y"
+                    <div class="swiper-slide"><img src="../assets/image/cars/slider/crop-Desktop-ModelY.jpg" alt="Model Y"
                             class="w-full"></div>
-                    <div class="swiper-slide"><img src="dist/image/cars/slider/crop-Homepage-Model-S-Desktop-LHD.jpg"
+                    <div class="swiper-slide"><img src="../assets/image/cars/slider/crop-Homepage-Model-S-Desktop-LHD.jpg"
                             alt="Model S" class="w-full"></div>
-                    <div class="swiper-slide"><img src="dist/image/cars/slider/crop-Homepage-Model-X-Desktop-LHD.jpg"
+                    <div class="swiper-slide"><img src="../assets/image/cars/slider/crop-Homepage-Model-X-Desktop-LHD.jpg"
                             alt="Model X" class="w-full"></div>
                 </div>
                 <!-- If we need pagination -->
@@ -63,13 +63,13 @@ function togglePopUp() {
                     </div>
 
                     <!-- Product image -->
-                    <img id="model-3" src="dist/image/cars/produk/Model 3.png" alt="model 3"
+                    <img id="model-3" src="../assets/image/cars/produk/Model3.png" alt="model 3"
                         class="w-[500px] h-fit px-5">
-                    <img id="model-y" src="dist/image/cars/produk/Model Y.png" alt="model Y"
+                    <img id="model-y" src="../assets/image/cars/produk/ModelY.png" alt="model Y"
                         class="hidden w-[500px] h-fit px-5">
-                    <img id="model-s" src="dist/image/cars/produk/Model S.png" alt="model S"
+                    <img id="model-s" src="../assets/image/cars/produk/ModelS.png" alt="model S"
                         class="hidden w-[500px] h-fit px-5">
-                    <img id="model-x" src="dist/image/cars/produk/Model X.png" alt="model X"
+                    <img id="model-x" src="../assets/image/cars/produk/ModelX.png" alt="model X"
                         class="hidden w-[500px] h-fit px-5">
 
                     <!-- Product menu button -->
@@ -130,7 +130,7 @@ function togglePopUp() {
                         <!-- Slide 1 -->
                         <div
                             class="swiper-slide justify-center items-center flex flex-wrap overflow-auto lg:overflow-hidden">
-                            <img src="dist/image/cars/detail produk/S3XY_StdFeat_Autopilot.jpg" alt="Auto Pilot"
+                            <img src="../assets/image/cars/detailproduk/S3XY_StdFeat_Autopilot.jpg" alt="Auto Pilot"
                                 class="w-2/3 lg:h-min lg:w-1/2 lg:flex-1">
                             <div class="m-10 w-fit lg:flex-1">
                                 <h3 class="my-3 font-bold text-lg">Auto Pilot</h3>
@@ -148,7 +148,7 @@ function togglePopUp() {
 
                         <!-- Slide 2 -->
                         <div class="swiper-slide justify-center items-center flex flex-wrap overflow-auto">
-                            <img src="dist/image/cars/detail produk/Chargeport_SX.jpg" alt="Easy Charging"
+                            <img src="../assets/image/cars/detailproduk/Chargeport_SX.jpg" alt="Easy Charging"
                                 class="w-2/3 lg:h-min lg:w-1/2 lg:flex-1">
                             <div class="m-10 w-fit lg:flex-1">
                                 <h3 class="my-3 font-bold text-lg">Easy Charging</h3>
@@ -167,7 +167,7 @@ function togglePopUp() {
 
                         <!-- Slide 3 -->
                         <div class="swiper-slide justify-center items-center flex flex-wrap overflow-auto">
-                            <img src="dist/image/cars/detail produk/Model_S_mobile_app.jpeg" alt="Mobile App"
+                            <img src="../assets/image/cars/detailproduk/Model_S_mobile_app.jpeg" alt="Mobile App"
                                 class="w-2/3 lg:h-min lg:w-1/2 lg:flex-1">
                             <div class="m-10 w-fit lg:flex-1">
                                 <h3 class="my-3 font-bold text-lg">Tesla Mobile App</h3>
@@ -215,9 +215,9 @@ function togglePopUp() {
                     </div>
                 </div>
 
-                <!-- <img src="dist/image/cars/MS-Exterior-Hero-Destop.jpg" alt="Air Flow" class="w-full"> -->
+                <!-- <img src="./src/assets/image/cars/MS-Exterior-Hero-Destop.jpg" alt="Air Flow" class="w-full"> -->
                 <div class="bg-fixed h-[100vmin] lg:h-screen"
-                    style="background-image: url(dist/image/cars/MS-Exterior-Hero-Desktop.jpg); background-position: center; background-repeat: no-repeat; background-size: 100vmax;">
+                    :style="`background-image: url(${Hero}); background-position: center; background-repeat: no-repeat; background-size: 100vmax;`">
                 </div>
 
                 <div class="flex flex-wrap lg:flex-nowrap px-5 py-28 lg:px-28 md:px-14 xs:p-1">
@@ -246,6 +246,11 @@ function togglePopUp() {
 
 
 </template>
+
+<script>
+import Hero from '../assets/image/cars/MS-Exterior-Hero-Desktop.jpg';
+</script>
+
 
 <style scoped>
 </style>

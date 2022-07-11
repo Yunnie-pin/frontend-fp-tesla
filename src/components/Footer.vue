@@ -9,7 +9,7 @@
         <div>
             <div class="bg-primary-black py-24">
                 <div class="flex flex-col justify-center pb-8">
-                    <img class="self-center w-1/10 pb-6" src="dist/image/footer/tesla-logo.png" alt="logo-tesla">
+                    <img class="self-center w-1/10 pb-6" src="../assets/image/footer/tesla-logo.png" alt="logo-tesla">
                     <div class="w-1/2 lg:w-1/6 text-center self-center text-white text-opacity-70">Tesla's mission
                         is to accelerate the world's transition to sustainable energy.</div>
                 </div>

@@ -14,7 +14,7 @@ $('#hamburger').click(function () {
 });
 
 // Klik di luar hamburger
-$(window).click(function (e) {
+window.onclick = function (e) {
     if (e.target != document.getElementById('hamburger') && e.target != document.querySelector('nav')) {
         $('#hamburger').removeClass('hamburger-active');
         $('nav').addClass('hidden');
@@ -23,7 +23,7 @@ $(window).click(function (e) {
         $('#pop-up').addClass('hidden');
         $('#blur-container').addClass('hidden');
     }
-});
+}
 
 // Mengubah gambar saat tombol produk diklik
 $('#button-model-3').click(function (e) { 

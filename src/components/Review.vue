@@ -18,10 +18,10 @@
                                     <h2 class="text-white font-medium">Sultan Mustopa</h2>
                                     <h2 class="text-white pb-2 font-light">Dosen Universitas Ikan Lele</h2>
                                     <hr class="pb-2">
-                                    <img src="dist/image/review-star/5.png" alt="star" class="drop-shadow-xl">
+                                    <img src="../assets/image/review-star/5.png" alt="star" class="drop-shadow-xl">
                                 </div>
 
-                                <img src="dist/image/produk/avatar/avatar1.png" alt="gambarprofile1"
+                                <img src="../assets/image/produk/avatar/avatar1.png" alt="gambarprofile1"
                                     class="block h-24 rounded-full flex-none border-6">
                             </div>
 
@@ -37,7 +37,7 @@
                         </div>
 
                         <div class="lg:order-1">
-                            <img src="dist/image/produk/img/reviewproduct1.png" alt="mobil1"
+                            <img src="../assets/image/produk/img/reviewproduct1.png" alt="mobil1"
                                 class="lg:float-right mx-auto rounded-3xl drop-shadow-xl maxmd:hidden">
                         </div>
                     </div>
@@ -54,10 +54,10 @@
                                     <h2 class="text-white font-medium">James Sutresno</h2>
                                     <h2 class="text-white pb-2 font-light">Founder Startup TokTik</h2>
                                     <hr class="pb-2">
-                                    <img src="dist/image/review-star/5.png" alt="star" class="drop-shadow-xl">
+                                    <img src="../assets/image/review-star/5.png" alt="star" class="drop-shadow-xl">
                                 </div>
 
-                                <img src="dist/image/produk/avatar/avatar2.png" alt="gambarprofile1"
+                                <img src="../assets/image/produk/avatar/avatar2.png" alt="gambarprofile1"
                                     class="block h-24 rounded-full flex-none border-6 ">
                             </div>
 
@@ -73,7 +73,7 @@
                         </div>
 
                         <div>
-                            <img src="dist/image/produk/img/reviewproduct2.png" alt="mobil2"
+                            <img src="../assets/image/produk/img/reviewproduct2.png" alt="mobil2"
                                 class="lg:float-left rounded-3xl drop-shadow-xl maxmd:hidden">
                         </div>
                     </div>
@@ -89,11 +89,11 @@
                                     <h2 class="text-white font-medium">Albert Asep</h2>
                                     <h2 class="text-white pb-2 font-light">Member Airdrop Sultan</h2>
                                     <hr class="pb-2">
-                                    <img src="dist/image/review-star/5.png" alt="star"
+                                    <img src="../assets/image/review-star/5.png" alt="star"
                                         class="max-w-full h-auto drop-shadow-xl">
                                 </div>
 
-                                <img src="dist/image/produk/avatar/avatar1.png" alt="gambarprofile1"
+                                <img src="../assets/image/produk/avatar/avatar1.png" alt="gambarprofile1"
                                     class="block h-24 rounded-full flex-none border-6">
                             </div>
 
@@ -109,12 +109,12 @@
                         </div>
 
                         <div class="lg:order-1">
-                            <img src="dist/image/produk/img/reviewproduct1.png" alt="mobil1"
+                            <img src="../assets/image/produk/img/reviewproduct1.png" alt="mobil1"
                                 class="lg:float-right mx-auto rounded-3xl drop-shadow-xl maxmd:hidden">
                         </div>
                     </div>
+
                     <!--end content 3-->
-                    
                 </div>
 
 

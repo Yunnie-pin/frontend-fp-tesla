@@ -23,7 +23,7 @@ function toggleHamburger() {
                 <!-- Logo ketika hamburger muncul -->
                 <div class="px-3 w-16 lg:hidden">
                     <a href="#home">
-                        <img src="dist/image/logo.png" alt="logo">
+                        <img src="../assets/image/logo.png" alt="logo">
                     </a>
                 </div>
 
@@ -59,7 +59,7 @@ function toggleHamburger() {
                             </li>
                         </ul>
                         <a href="#home" class="hidden lg:block">
-                            <img src="dist/image/logo.png" alt="logo" class="w-20">
+                            <img src="../assets/image/logo.png" alt="logo" class="w-20">
                         </a>
                         <ul class="block lg:flex items-center w-full justify-evenly">
                             <li class="group">
