@@ -17,7 +17,7 @@
                             
                             <div v-for="team of teams" :key="team.id">
                               <div class="Arifin w-40">
-                                  <img src="dist/image/team/pin.png" class="border-8 border-white rounded-full h-auto w-36" />
+                                  <img :src="team.avatar" class="border-8 border-white rounded-full h-auto w-36" />
                                   <div class="m-4 flex flex-col justify-center">
                                     <span class="font-bold font-sans text-white text-center"> {{team.role}} </span>
                                     <span class="block font-sans text-white text-sm text-center"> {{ team.name }} </span>

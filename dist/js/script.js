@@ -9,6 +9,7 @@ window.onscroll = function () {
 }
 
 
+
 // Klik di luar hamburger
 window.click(function (e) {
     if (e.target != document.getElementById('hamburger') && e.target != document.querySelector('nav')) {

@@ -8,11 +8,13 @@ import Aboutme from './components/Aboutme.vue'
 import Team from './components/Team.vue'
 import Contactme from './components/Contactme.vue'
 import Footer from './components/Footer.vue'
+import Hero from './components/Hero.vue'
 
 </script>
 
 <template>
   <Navbar />
+  <Hero />
   <Product />
   <Review />
   <Aboutme />

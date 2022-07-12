@@ -52,9 +52,9 @@ function toggleHamburger() {
                                 </a>
                             </li>
                             <li class="group">
-                                <a href="#about"
+                                <a href="#Review"
                                     class="px-5 py-2 flex rounded-full transition duration-200 font-bold group-hover:bg-slate-200/75">
-                                    Tentang Kami
+                                    Review
                                 </a>
                             </li>
                         </ul>
@@ -62,6 +62,12 @@ function toggleHamburger() {
                             <img src="dist/image/logo.png" alt="logo" class="w-20">
                         </a>
                         <ul class="block lg:flex items-center w-full justify-evenly">
+                            <li class="group">
+                                <a href="#about"
+                                    class="px-5 py-2 flex rounded-full transition duration-200 font-bold group-hover:bg-slate-200/75">
+                                    Tentang Kami
+                                </a>
+                            </li>
                             <li class="group">
                                 <a href="#team"
                                     class="px-5 py-2 flex rounded-full transition duration-200 font-bold group-hover:bg-slate-200/75">
@@ -72,12 +78,6 @@ function toggleHamburger() {
                                 <a href="#contact"
                                     class="px-5 py-2 flex rounded-full transition duration-200 font-bold group-hover:bg-slate-200/75">
                                     Kontak Kami
-                                </a>
-                            </li>
-                            <li class="group">
-                                <a href="login.html"
-                                    class="px-5 py-2 flex rounded-full transition duration-200 font-bold group-hover:bg-slate-200/75">
-                                    Login
                                 </a>
                             </li>
                         </ul>

@@ -7,7 +7,7 @@
             <!-- Section about start -->
         <section id="about">
             <div class="bg-primary-white">
-                <h2 class="text-primary-black font-medium text-3xl pb-16 text-center pt-10">Tentang Kami</h2>
+                <h2 class="text-primary-black font-medium text-3xl pb-16 text-center pt-24">Tentang Kami</h2>
                 <div class="lg:flex lg:flex-row justify-center">
                     <div class="pb-10 basis-4/12">
                         <h3 class="text-primary-black font-sans font-medium text-xl pb-3 text-center">Sejarah Tesla</h3>
