@@ -77,8 +77,7 @@ export default {
                     <!-- Product image -->
                     <div v-for="product of Products" :key="product.id">
                         <div v-if="product.id === numberProduct">
-                            <img :src="'dist/image/cars/produk/' + product.name + '.png'"
-                            class="w-[500px] h-fit px-5">
+                            <img :src="'dist/image/cars/produk/' + product.name + '.png' || 'dist/image/cars/product/model 3.png'" class="w-[500px] h-fit px-5">
                         </div>
 
                     </div>
