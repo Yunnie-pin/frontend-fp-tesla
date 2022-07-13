@@ -15,7 +15,7 @@ export default {
   data() {
     return {
         isActive: true,
-        numberProduct: 0,
+        numberProduct: 1,
         Products: []
     }
   },
@@ -79,7 +79,6 @@ export default {
                         <div v-if="product.id === numberProduct">
                             <img :src="'dist/image/cars/produk/' + product.name + '.png'"
                             class="w-[500px] h-fit px-5">
-                            <div class="py-3 text-xs mx-auto text-center w-64">{{product.description}}</div>
                         </div>
 
                     </div>
